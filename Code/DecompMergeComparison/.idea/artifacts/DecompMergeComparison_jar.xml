@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DecompMergeComparison:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DecompMergeComparison_jar</output-path>
+    <root id="archive" name="DecompMergeComparison.jar">
+      <element id="module-output" name="DecompMergeComparison" />
+    </root>
+  </artifact>
+</component>
