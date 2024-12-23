@@ -25,7 +25,7 @@ The data obtained by the experiments presented in our work is provided in the "D
 - The 32nd column is the average of the first 30 columns  
 
 ## Statistical Analysis
-Results from the Kruskal-Wallis and Iman-Conover tests can be found within the "Stats" folder. 
+Results from the Kruskal-Wallis and Iman-Conover tests can be found within the "Stats" folder. These tests were comleted using the SciPy (scipy.org) and SciKit (scikit-learn.org) Python libraries. The scores of the algorithms based on the number of functions won/lost/tied are also provided. 
 
 ## Benchmarking Soure Code
 The benchmarking functions used in this project are from the the CEC’2010 Special Session and Competition on Large-Scale Global Optimization and CEC’2013 Special Session and Competition on Large-Scale Global Optimization. The original source code for the 2010 benchmark functions is credited to Thomas Weise (tweise@gmx.de) while the 2013 functions are credited to Giovanni Iacca (giovanniiaccca@incas3.eu). The code for both the 2010 and 2013 functions has been slightly modified for ease of use within this project.
