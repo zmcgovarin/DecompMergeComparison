@@ -18,11 +18,11 @@ NOTE: The 2013 benchmark functions can only be run on Linux or MacOS. This is be
 
 ## Data
 The data obtained by the experiments presented in our work is provided in the "Data" folder as "Data/Benchmark Year/Number of Dimensions/". The CSV files are formatted as follows:
--Each row indicates a different benchmarking function (first row -> first benchmarking function)
--The values presented in the first 30 columns are the final fitness evaluations of the best solution found by the algorithm
--Each of the first 30 columns indicates a different run of the algorithm (first column -> first execution of the algorithm)
--The 31st column is the minimum ("best") value contained within the previous 30 columns
--The 32nd column is the average of the first 30 columns  
+- Each row indicates a different benchmarking function (first row -> first benchmarking function)
+- The values presented in the first 30 columns are the final fitness evaluations of the best solution found by the algorithm
+- Each of the first 30 columns indicates a different run of the algorithm (first column -> first execution of the algorithm)
+- The 31st column is the minimum ("best") value contained within the previous 30 columns
+- The 32nd column is the average of the first 30 columns  
 
 ## Statistical Analysis
 Results from the Kruskal-Wallis and Iman-Conover tests can be found within the "Stats" folder. 
