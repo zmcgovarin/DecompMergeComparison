@@ -10,9 +10,9 @@ The project is built using Java version 6 (jdk1.6.0_45), available at: https://w
 ## Running the Project
 The project can be ran using the provided JAR file in the "Build" folder or by compiling the source yourself and running the "Main" class. To run the JAR, simply open a terminal within the "Build" folder and run:
 
-java -jar ...
+"java -jar DecompMergeComparison.jar [Algorithm] [Dimensions] [Benchmark Year]"
 
-Most relevant parameters can be passed as arguments or manually modified in the "Main" class. 
+Ex. "java -jar DecompMergeComparison.jar DCDE 100 2010"
 
 NOTE: The 2013 benchmark functions can only be run on Linux or MacOS. This is becuase these functions load an external library (found in the "lib" folder) for which only Linux and MacOS versions are provided. 
 
@@ -29,3 +29,7 @@ Results from the Kruskal-Wallis and Iman-Conover tests can be found within the "
 
 ## Benchmarking Soure Code
 The benchmarking functions used in this project are from the the CEC’2010 Special Session and Competition on Large-Scale Global Optimization and CEC’2013 Special Session and Competition on Large-Scale Global Optimization. The original source code for the 2010 benchmark functions is credited to Thomas Weise (tweise@gmx.de) while the 2013 functions are credited to Giovanni Iacca (giovanniiaccca@incas3.eu). The code for both the 2010 and 2013 functions has been slightly modified for ease of use within this project.
+
+## Supplementary Information
+
+Supplementary Notes and Tables are provided in the "Supplementary_Information_DecompMergeComparison.pdf" file.
